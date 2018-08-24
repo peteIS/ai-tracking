@@ -28,7 +28,7 @@ Create a system/mechanism which completed several important parts of a tracking 
   Install OpenCV for your system. Like Tensorflow, you can either install it directly or build it for your system.
 `pip install opencv-python`. Or for building [OpenCV](https://docs.opencv.org/3.3.1/d7/d9f/tutorial_linux_install.html).
 
--Python Libraries
+- Python Libraries
 
   Complete the following command for the listed libraries
   `pip install [library]`
