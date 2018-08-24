@@ -14,7 +14,7 @@ Create a system/mechanism which completed several important parts of a tracking 
 ### Software
 - Jetpack
 
-  With a new TX2, flash it with Jetpack to install basic OS, Cuda, CuDNN, etc
+  With a new TX2, flash it with [Jetpack](https://docs.nvidia.com/jetpack-l4t/2_1/content/developertools/mobile/jetpack/jetpack_l4t/2.0/jetpack_l4t_install.htm) to install basic OS, Cuda, CuDNN, etc
 - Python
   
   For this, we used Python 2.7. It is recommended that this is set up in a python virtual 
