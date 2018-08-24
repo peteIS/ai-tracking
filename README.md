@@ -13,13 +13,15 @@ Create a system/mechanism which completed several important parts of a tracking 
 
 ### Software
 - Jetpack
+
   With a new TX2, flash it with Jetpack to install basic OS, Cuda, CuDNN, etc
 - Python
+  
   For this, we used Python 2.7. It is recommended that this is set up in a python virtual 
 - Tensorflow 
-  Install [Tensorflow](https://www.tensorflow.org/install/) for your system. You can either install it directly using pip, or use their tutorial for building Tensorflow for your system, if that is what you want to do.
-  `pip install tensorflow-gpu` if you have an NVIDIA GPU that you want to use, or
-  `pip install tensorflow` if you don’t have an NVIDIA GPU that you want to use.
+  
+  Install [Tensorflow](https://www.tensorflow.org/install/) for your system. You can either install it directly using pip, or use their tutorial for building Tensorflow for your system, if that is what you want to do. `pip install tensorflow-gpu` if you have an NVIDIA GPU that you want to use, or `pip install tensorflow` if you don’t have an NVIDIA GPU that you want to use.
+  
   If you build Tensorflow from source, it will take a while ~6 hours, but it should theoretically run faster than it would from just installing it. Also, using the GPU version is theoretically faster than the CPU version.
 ### --OpenCV
 Install OpenCV for your system. Like Tensorflow, you can either install it directly or build it for your system.
