@@ -5,11 +5,11 @@ Create a system/mechanism which completed several important parts of a tracking 
 
 ## Dependencies and Use Case
 ### Hardware
---Nvidia TX2 Board
---DJI Tello Drone
---14.8V Generic PolyLithium Battery
---
---
+- Nvidia TX2 Board
+- DJI Tello Drone
+- 14.8V Generic PolyLithium Battery
+- 
+- 
 
 ### Software
 ### --Jetpack
