@@ -12,11 +12,11 @@ Create a system/mechanism which completed several important parts of a tracking 
 - 
 
 ### Software
--Jetpack
+- Jetpack
   With a new TX2, flash it with Jetpack to install basic OS, Cuda, CuDNN, etc
--Python
+- Python
   For this, we used Python 2.7. It is recommended that this is set up in a python virtual 
--Tensorflow 
+- Tensorflow 
   Install [Tensorflow](https://www.tensorflow.org/install/) for your system. You can either install it directly using pip, or use their tutorial for building Tensorflow for your system, if that is what you want to do.
   `pip install tensorflow-gpu` if you have an NVIDIA GPU that you want to use, or
   `pip install tensorflow` if you don’t have an NVIDIA GPU that you want to use.
