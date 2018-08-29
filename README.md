@@ -8,8 +8,9 @@ Create a system/mechanism which completed several important parts of a tracking 
 - Nvidia TX2 Board
 - DJI Tello Drone
 - 14.8V Generic PolyLithium Battery
-- 
-- 
+- Traxxas Automobile Remote Control Vehicle
+- Enertion FOCBOX Controller
+- Computing Server*
 
 ### Software
 - **Jetpack**
@@ -57,3 +58,6 @@ Create a system/mechanism which completed several important parts of a tracking 
 
 
 ### Person Tracking
+- **OSVOS Project**
+
+  Setting up the propper environment for the building the drone machine learning model which will control and guide the drone movements can be found [here](https://github.com/gitForce99/OSVOS_Project_Tensorflow). This is the only component which should be setup on an efficient external conputing environment for time efficiency purposes. Following the guide for the setup provided in the link is the best process of setting everything up.
