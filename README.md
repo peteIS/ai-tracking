@@ -10,6 +10,7 @@ Create a system/mechanism which completed several important parts of a tracking 
 - 14.8V Generic PolyLithium Battery
 - Traxxas Automobile Remote Control Vehicle
 - Enertion FOCBOX Controller
+- Logitech C920 HD WebCam
 - Computing Server*
 
 ### Software
@@ -38,21 +39,39 @@ Create a system/mechanism which completed several important parts of a tracking 
 
 ## Running Process
 ### Scripts
+ - **person_detection_new.py**
+ 
+    - Capturing video
+    Line 31 starts a video capture, which can be either from a video file or from using a camera attached to the system. You need to change what is being passed into cv2.VideoCapture() to meet your needs. In our case, the USB camera was `1`, but if you only have one camera attached, it will probably be `0`. If you want to use a video file, put in the location of the file.
+
+  - Saving Images
+    Line 28 is used for naming the folder in which images are saved, so if you’re using a camera feed, change this to something descriptive. There is a block of code that creates new directories for saving images, but it will fail if you have more than 10 folders with the same basic name, so that it does not infinitely create folders.
+    
+  - Person Identification
+    Majority of other lines are directly related to person identification.
+ 
+ - **trackingScenario.sh**
+ 
+ 
+ 
+ - **hostServerTraining.sh**
+
 
 
 ### Trigger
 
 
-## RC Car
+## RC Car Setup
 ### Controller
-
-
-
+ - **BLDC-Tool**
+  
+   Follow the [BLDC Tool](https://github.com/vedderb/bldc-tool) guide for proper setup on the TX2 system.
+   
 ### Person Detection
+ - **person_detection_new.py** 
 
 
-
-## Drone
+## Drone Setup
 ### Movement and Communication
 
 
