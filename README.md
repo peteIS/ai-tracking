@@ -96,7 +96,7 @@ Lines 79-85 of this script should be uncommented for the first run, in order to 
 
   Setting up the propper environment for the building the drone machine learning model which will control and guide the drone movements can be found [here](https://github.com/gitForce99/OSVOS_Project_Tensorflow). This is the only component which should be setup on an efficient external conputing environment for time efficiency purposes. Following the guide for the setup provided in the link is the best process of setting everything up.
   
- - Potential Improvement/Addition
+ - **Potential Improvement/Addition**
  
   That’s the general idea of what the drone should do. A similar implementation would be to track faces, which was implemented and showcased [here](https://github.com/sofwerx/docker-tello-facetrack).
 Line 90 of face tracking.go shows that a Caffe model used in detecting faces was implemented. This could be altered such that a Tensorflow model for detecting people, which we have, is used. The only other addition would be to classify the person detected, which could be implemented within the same go file.
